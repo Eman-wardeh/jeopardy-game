@@ -177,7 +177,7 @@ There are several things I would like to improve as I continue learning:
 
 ## 📸 Screenshot
 
-*Add a screenshot of your Jeopardy game here.*
+<img src="images/jeopardy-screenshot.png" alt="Jeopardy Game Screenshot" width="700">
 
 ## 🚀 Project Status
 
