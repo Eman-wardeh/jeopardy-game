@@ -1,0 +1,77 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c */
+
+
+
+body{
+  display: flex; /* Use flexbox for vertical centering */
+  flex-direction: column;
+  align-items: center; /* Center items vertically */
+  justify-content: center;
+  background-color: lightblue;
+}
+  #btn{
+    height: 50px;
+    width: 100px;
+    color:wheat;
+    background-color: #28a200;
+    margin-bottom: 50px;
+  }
+  
+  .question-button {
+    color: yellow;
+    /* color: #115ff4; */
+    background: none;
+    border: none;
+    /* cursor: pointer; Optional: change cursor to pointer on hover */
+    display: block;
+    margin: 0 auto;
+    
+}
+.table {
+    /* width: 70%;
+    border-collapse: collapse; */
+    background-color:#115ff4;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 100%; /* Set a width for the table */
+    height: 500PX;
+    margin: auto; /* Center the table */
+    border: 1px solid black; 
+    
+}
+
+.loading-spinner{
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: rgb(69, 69, 240) transparent rgb(69, 69, 240) transparent;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.loading-button {
+  position: relative;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.loading-button:disabled {
+  background-color: #2980b9;
+}
